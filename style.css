@@ -1,0 +1,77 @@
+body{
+  background: #2eaa6c url('background.png');
+  font-family: Arial;
+}
+
+h1 {
+  background-color: #2eaa6c;
+  margin: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: red;
+}
+
+.tags h2 {
+  color: green;
+}
+
+div {
+  padding: 10px;
+  margin: 20px;
+  width: 400px;
+  color: white;
+}
+
+div:hover {
+  /*color:black;
+  background: white;
+  width:90%;
+
+  transition: color, background, width 0.5s;*/
+}
+
+img {
+  /*transition: transform 0.5s;*/
+  transition: border-radius, transform 0.5s;
+}
+
+img:hover {
+  /*border-radius: 100%;*/
+  /*transform: rotateX(45deg) rotateY(120deg);*/
+  transform: scale(1.2);
+}
+
+.intro {
+  background-color: #222222;
+  width: 400px;
+}
+
+.my-image {
+  width: 100%;
+}
+
+.welcome {
+  background-color: #205a44;
+}
+
+.tags {
+   width: 600px;
+   background: #cccccc;
+   color: black;
+}
+
+.contact {
+    text-align: center;
+    width: auto;
+}
+
+a {
+  color: green;
+  transition: color 2.5s;
+}
+a:hover {
+  color: white;
+}
